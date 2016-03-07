@@ -32,7 +32,7 @@ var holders = defineMessages({
     },
     emailAttrEx: {
         id: 'admin.ldap.emailAttrEx',
-        defaultMessage: 'Ex "mail"'
+        defaultMessage: 'Ex "userPrincipalName"'
     },
     usernameAttrEx: {
         id: 'admin.ldap.usernameAttrEx',
