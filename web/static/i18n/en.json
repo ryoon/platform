@@ -159,7 +159,7 @@
   "admin.ldap.bindUserDesc": "The username used to perform the LDAP search. This should typically be an account created specifically for use with Mattermost. It should have access limited to read the portion of the LDAP tree specified in the BaseDN field.",
   "admin.ldap.bindUserTitle": "Bind Username:",
   "admin.ldap.emailAttrDesc": "The attribute in the LDAP server that will be used to populate the email addresses of users in Mattermost.",
-  "admin.ldap.emailAttrEx": "Ex \"mail\"",
+  "admin.ldap.emailAttrEx": "Ex \"userPrincipalName\"",
   "admin.ldap.emailAttrTitle": "Email Attribute:",
   "admin.ldap.enableDesc": "When true, Mattermost allows login using LDAP",
   "admin.ldap.enableTitle": "Enable Login With LDAP:",
