@@ -186,6 +186,8 @@ export default {
     GITLAB_SERVICE: 'gitlab',
     GOOGLE_SERVICE: 'google',
     EMAIL_SERVICE: 'email',
+    LDAP_SERVICE: 'ldap',
+    USERNAME_SERVICE: 'username',
     SIGNIN_CHANGE: 'signin_change',
     SIGNIN_VERIFIED: 'verified',
     SESSION_EXPIRED: 'expired',

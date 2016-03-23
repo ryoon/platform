@@ -13,7 +13,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import {Router, Route, IndexRoute, IndexRedirect, browserHistory} from 'react-router';
 import Root from 'components/root.jsx';
-import Login from 'components/login.jsx';
 import LoggedIn from 'components/logged_in.jsx';
 import NotLoggedIn from 'components/not_logged_in.jsx';
 import NeedsTeam from 'components/needs_team.jsx';
@@ -45,6 +44,8 @@ import SendInivtesPage from 'components/signup_team_complete/components/team_sig
 import UsernamePage from 'components/signup_team_complete/components/team_signup_username_page.jsx';
 import PasswordPage from 'components/signup_team_complete/components/team_signup_password_page.jsx';
 import FinishedPage from 'components/signup_team_complete/components/team_signup_finished.jsx';
+
+import Login from 'components/login/login.jsx';
 
 import {addLocaleData} from 'react-intl';
 import enLocaleData from 'react-intl/locale-data/en';
