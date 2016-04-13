@@ -55,12 +55,14 @@ export function safariFix(callback) {
         'intl/locale-data/jsonp/en.js',
         'intl/locale-data/jsonp/es.js',
         'intl/locale-data/jsonp/fr.js',
+        'intl/locale-data/jsonp/ja.js',
         'intl/locale-data/jsonp/pt.js'
     ], (require) => {
         require('intl');
         require('intl/locale-data/jsonp/en.js');
         require('intl/locale-data/jsonp/es.js');
         require('intl/locale-data/jsonp/fr.js');
+        require('intl/locale-data/jsonp/ja.js');
         require('intl/locale-data/jsonp/pt.js');
         callback();
     });
@@ -70,5 +72,6 @@ export function doAddLocaleData() {
     addLocaleData(enLocaleData);
     addLocaleData(esLocaleData);
     addLocaleData(frLocaleData);
+    addLocaleData(jaLocaleData);
     addLocaleData(ptLocaleData);
 }
