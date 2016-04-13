@@ -3,12 +3,14 @@
 
 const es = require('!!file?name=i18n/[name].[ext]!./es.json');
 const fr = require('!!file?name=i18n/[name].[ext]!./fr.json');
+const ja = require('!!file?name=i18n/[name].[ext]!./ja.json');
 const pt = require('!!file?name=i18n/[name].[ext]!./pt.json');
 
 import {addLocaleData} from 'react-intl';
 import enLocaleData from 'react-intl/locale-data/en';
 import esLocaleData from 'react-intl/locale-data/es';
 import frLocaleData from 'react-intl/locale-data/fr';
+import jaLocaleData from 'react-intl/locale-data/ja';
 import ptLocaleData from 'react-intl/locale-data/pt';
 
 const languages = {
@@ -26,6 +28,11 @@ const languages = {
         value: 'fr',
         name: 'Français (Beta)',
         url: fr
+    },
+    ja: {
+        value: 'ja',
+        name: '日本語 (Beta)',
+        url: ja
     },
     pt: {
         value: 'pt',
